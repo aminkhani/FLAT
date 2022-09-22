@@ -105,113 +105,137 @@
 <h1 id="TCS">Theoretical Computer Science (TCS)</h1>
 
 - **Theoretical computer science (TCS)** is a subset of **general computer science** and **mathematics** that focuses on **mathematical aspects of computer science** such as the **theory of computation**, **lambda calculus**, and **type theory**.
-<br>
 
-- ### TCS covers a wide variety of topics including: 
+- ## TCS covers a wide variety of topics including: 
 
     <span id="algorithm"></span>
   - ### [Algorithms](https://en.wikipedia.org/wiki/Algorithm)
     - An **algorithm** is a **step-by-step procedure for calculations**. **Algorithms** are used for **calculation**, **data processing**, and **automated reasoning**.
   <br>
+
     - An **algorithm** is an effective method expressed as a finite list of well-defined instructions for calculating a function. Starting from an initial state and initial input (perhaps empty).
 
-<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Algorithm" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="ds"></span>
 
   - ### [Data Structures](https://en.wikipedia.org/wiki/Data_structure)
     - **Data structure** is a **data organization**, **management**, and **storage format** that is usually chosen for efficient access to data.
   <br>
+
     -  More precisely, a **data structure** is a **collection of data values**, the **relationships** among them, and the **functions or operations** that can be applied to the data
   
-  <div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Data_structure" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="complexity"></span>
 
   - ### [Computational Complexity Theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)
     - Focuses on **classifying computational problems** according to their **resource usage**, and **relating** these classes to each other.
     <br>
+
     -  A **computational problem** is a **task** solved by a **computer**. A **computation problem** is solvable by **mechanical application of mathematical steps**, such as an **algorithm**.
   
-  <div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Computational_complexity_theory" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="parallel"></span>
 
   - ### [Parallel](https://en.wikipedia.org/wiki/Parallel_computing) and [Distributed Computing](https://en.wikipedia.org/wiki/Distributed_computing)
     - **Parallel computing** is a **type of computation** in which many **calculations or processes** are carried out **simultaneously**.
   <br>
+
     - **Large problems** can often be divided into smaller ones, which can then be solved at the same time
 
-<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Parallel_computing" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Distributed_computing" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="probab"></span>
 
   - ### [Probabilistic Computation](https://en.wikipedia.org/wiki/Probabilistic_computation)
-
-<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+  
+  
+    <div align="right"><a href="https://en.wikipedia.org/wiki/Probabilistic_computation" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+    <a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="quantum"></span>
 
   - ### [Quantum Computation](https://en.wikipedia.org/wiki/Quantum_computation)
 
-<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Quantum_computation" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="auto_theory"></span>
 
   - ### [Automata Theory]()
 
-<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="#" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="info_theory"></span>
 
   - ### [Information Theory](https://en.wikipedia.org/wiki/Information_theory)
 
 
-<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Information_theory" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="crypto"></span>
 
   - ### [Cryptography](https://en.wikipedia.org/wiki/Cryptography)
 
 
-<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Cryptography" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="prog_seman"></span>
 
   - ### [Program Semantics](https://en.wikipedia.org/wiki/Program_semantics) and [Verification](https://en.wikipedia.org/wiki/Formal_methods)
 
 
-<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Program_semantics" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="https://en.wikipedia.org/wiki/Formal_methods" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="game_theory"></span>
 
   - ### [Algorithmic Game Theory](https://en.wikipedia.org/wiki/Algorithmic_game_theory)
 
 
-<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Algorithmic_game_theory" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="ML"></span>
 
   - ### [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning)
     -
 
-    <div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Machine_learning" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="biology"></span>
 
   - ### [Computational Biology](https://en.wikipedia.org/wiki/Computational_biology)
     -
 
-    <div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Computational_biology" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="economi"></span>
 
   - ### [Computational Economics](https://en.wikipedia.org/wiki/Computational_economics)
     -
 
-    <div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Computational_economics" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="geometry"></span>
 
   - ### [Computational Geometry](https://en.wikipedia.org/wiki/Computational_geometry)
     -
 
-    <div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Computational_geometry" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="number"></span>
 
   - ### [Computational Number Theory](https://en.wikipedia.org/wiki/Computational_number_theory)
     -
 
-    <div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<div align="right"><a href="https://en.wikipedia.org/wiki/Computational_number_theory" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+<a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="algebra"></span>
 
   - ### [Algebra](https://en.wikipedia.org/wiki/Algebra)
     -
 
-    <div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+    <div align="right"><a href="https://en.wikipedia.org/wiki/Algebra" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
+    <a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
