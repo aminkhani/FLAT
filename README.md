@@ -111,7 +111,7 @@
     <span id="algorithm"></span>
   - ### [Algorithms](https://en.wikipedia.org/wiki/Algorithm)
     - An **algorithm** is a **step-by-step procedure for calculations**. **Algorithms** are used for **calculation**, **data processing**, and **automated reasoning**.
-  <br>
+    <br>
 
     - An **algorithm** is an effective method expressed as a finite list of well-defined instructions for calculating a function. Starting from an initial state and initial input (perhaps empty).
 
@@ -121,10 +121,11 @@
 
   - ### [Data Structures](https://en.wikipedia.org/wiki/Data_structure)
     - **Data structure** is a **data organization**, **management**, and **storage format** that is usually chosen for efficient access to data.
-  <br>
+    <br>
 
-    -  More precisely, a **data structure** is a **collection of data values**, the **relationships** among them, and the **functions or operations** that can be applied to the data
-  
+    - More precisely, a **data structure** is a **collection of data values**, the **relationships** among them, and the **functions or operations** that can be applied to the data
+
+
 <div align="right"><a href="https://en.wikipedia.org/wiki/Data_structure" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
 <a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="complexity"></span>
@@ -141,19 +142,19 @@
 
   - ### [Parallel](https://en.wikipedia.org/wiki/Parallel_computing) and [Distributed Computing](https://en.wikipedia.org/wiki/Distributed_computing)
     - **Parallel computing** is a **type of computation** in which many **calculations or processes** are carried out **simultaneously**.
-  <br>
+    <br>
 
-    - **Large problems** can often be divided into smaller ones, which can then be solved at the same time
+    - **Large problems** can often be divided into smaller ones, which can then be solved at the same time.
+
 
 <div align="right"><a href="https://en.wikipedia.org/wiki/Parallel_computing" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
-<div align="right"><a href="https://en.wikipedia.org/wiki/Distributed_computing" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
-
+<a href="https://en.wikipedia.org/wiki/Distributed_computing" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
 <a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="probab"></span>
 
   - ### [Probabilistic Computation](https://en.wikipedia.org/wiki/Probabilistic_computation)
   
-  
+
     <div align="right"><a href="https://en.wikipedia.org/wiki/Probabilistic_computation" targert="_blacnk"><img src="https://img.shields.io/badge/Read More-green?style=for-the-badge" /></a>
     <a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <span id="quantum"></span>
