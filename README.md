@@ -106,9 +106,9 @@
 
 - **Theoretical computer science (TCS)** is a subset of **general computer science** and **mathematics** that focuses on **mathematical aspects of computer science** such as the **theory of computation**, **lambda calculus**, and **type theory**.
 
-- ## TCS covers a wide variety of topics including: 
+## TCS covers a wide variety of topics including: 
 
-    <span id="algorithm"></span>
+<span id="algorithm"></span>
   - ### [Algorithms](https://en.wikipedia.org/wiki/Algorithm)
     - An **algorithm** is a **step-by-step procedure for calculations**. **Algorithms** are used for **calculation**, **data processing**, and **automated reasoning**.
     <br>
