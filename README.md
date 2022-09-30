@@ -36,6 +36,9 @@
 > **Note**
 >
 > 📣 You can help to improve this repo, by giving me a **⭐star⭐** and **❤️following me❤️**
+> 
+> **warning**
+> It is better to use the web browser to view the math notation in this repository.
 <br>
 
 <h1 id="top">Contents</h1>
