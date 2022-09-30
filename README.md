@@ -90,6 +90,29 @@
           <li><a href="#partition">Partition</a></li>
         </ul>
       </li>
+      <li><a href="#function">Functions and Relations</a>
+      </li>
+      <li><a href="#graphs">Graphs</a>
+        <ul>
+          <li><a href="#edge">Vertices & Edges</a></li>
+          <li><a href="#walk">Walk</a></li>
+          <li><a href="#path">Path & Simple Path</a></li>
+          <li><a href="#cycle">Cycle</a></li>
+        </ul>
+      </li>
+      <li><a href="#tree">Trees</a>
+        <ul>
+          <li><a href="#child">Parent & Child</a></li>
+          <li><a href="#lvl">Level</a></li>
+          <li><a href="#height">Height</a></li>
+        </ul>
+      </li>
+      <li><a href="#proof">Proof Techniques</a>
+        <ul>
+          <li><a href="#proof1">Proof By Induction</a></li>
+          <li><a href="#proof2">Proof By Contradiction</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
@@ -405,10 +428,107 @@
 
 <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 
-- ## Functions and Relations
-- ## Graphs and Trees
-- ## Proof Techniques
+<h2 id="function">Functions and Relations</h2>
 
+- A **function** is a **rule** that assigns to elements of **one set** a **unique element of another set**. If **$f$** denotes a **function**, then the **first set** is called the **domain** of **$f$**, and the **second set** is its **range**.
+  - $f: S_1 \rightarrow S_2$
+<br>
+
+- If the **domain** of **$f$** is **all of** **$S_1$**, we say that **$f$** is a **total function** on **$S_1$**; **otherwise** **$f$** is said to be a **partial function**.
+
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<h2 id="graphs">Graphs</h2>
+
+<span id="edge"></span>
+
+- ### Vertices & Edges
+- A **graph** is a construct consisting of **two finite sets**:
+  - **Vertices**: the **set** **$V = \\{v_1, v_2, …, v_n\\}$**.
+  - **Edges**: the **set** **$E = \\{e_1, e_2, …, e_m\\}$**.
+  - Each **edge** is a **pair** of **vertices** from **V**
+    - $e_i = (v_j, v_k)$
+<br>
+
+  - We say that the **edge** **$e_i$** is an **outgoing edge** for **$v_j$** and an **incoming edge** for **$v_k$**. Such a construct is actually a **directed graph (digraph)**.
+
+<span id="walk"></span>
+
+- ### Walk
+  - A **sequence of edges** **$(v_i, v_j)$**, **$(v_j, v_k)$**, …, **$(v_m, v_n)$**, from **$v_i$** to **$v_n$**. 
+  <br>
+
+  - The **length of a walk** is the **total number of edges**.
+
+<span id="path"></span>
+
+- ### Path & Simple Path
+  - A **walk** in which **no edge is repeated**.
+  - A **path** is **simple** if **no vertex is repeated**.
+
+<span id="cycle"></span>
+
+- ### Cycle
+  - A **walk** from **$v_i$** to **itself** with **no repeated** **edges** is called a **cycle with base** **$v_i$**.
+  <br>  
+
+  - If **no vertices** other than the **base** are **repeated** in a **cycle**, then it is said to be **simple**.
+  <br>
+
+  - **Loop**: An **edge** from a **vertex** to **itself**. 
+
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<h2 id="tree">Trees</h2>
+
+- **Trees** are a **particular type of graph**.
+<br>
+
+- **Tree** is a **directed graph** that has **no cycles** and that has **one distinct vertex**, called the **root**, such that there is **exactly one path** from the **root** to **every other vertex**. 
+<br>
+
+- **Root** has no **incoming edges** and that there are **some vertices without outgoing edges**. These are **called** the **leaves of the tree**.
+<br>
+
+<span id="child"></span>
+
+- ### Parent & Child
+  - If there is an **edge** from **$v_i$** to **$v_j$** , then **$v_i$** is said to be the **parent** of **$v_j$** , and **$v_j$** the **child** of **$v_i$**.
+
+<span id="lvl"></span>
+
+- ### Level
+  - The **level** of a **vertex** is the **length of the path** from the **root** to the **vertex**.
+
+<span id="height"></span>
+
+- ### Height
+  - The **height** of a **tree** is the **maximum level** of any **vertex** in the **tree**.
+<br>
+<img src="Pic/tree.jpg">
+<br>
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<h2 id="proof">Proof Techniques</h2>
+
+<span id="proof1"></span>
+
+- ### Proof By Induction
+  - **Induction** is a **technique** by which the **truth of a number of statements** can be inferred from the **truth of a few specific instances**.
+  <br>
+
+  - **Basis**: 
+  <br>
+
+  - **Inductive Step**: 
+  <br> 
+
+  - **Inductive assumption**:
+
+<span id="proof2"></span>
+
+- ### Proof By Contradiction
+  - **Proof by contradiction** is another **powerful technique** that often **works** when **everything else fails**.
+  <br>
+
+  - Suppose we want to **prove** that some **statement **$P$** is true**. We then **assume**, for the moment, that **$P$** is **false** and see where that assumption leads us. If we **arrive at a conclusion** that **we know is incorrect**, we can **lay** the blame on the starting assumption and conclude that **$P$** must be **true**.
 
 
 <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
