@@ -379,7 +379,7 @@
       - The **Cartesian product** of **two sets**, which **itself** is a **set of ordered pairs**.
       - $S = S_1 \times S_2 = \\{(x, y) : x ∈ S_1, y ∈ S_2\\}$
       - For example: Let $S_1 = \\{2, 4\\}$ and $S_2 = \\{2, 3\\}$
-      - $S = S_1 \times S_2 = \\{(2, 2), (2, 3), (4, 2), (4, 3)\\}$
+      - $S_1 \times S_2 = \\{(2, 2), (2, 3), (4, 2), (4, 3)\\}$
       <br> 
 
       > **Note** that the order in which the elements of a pair are written matters.
