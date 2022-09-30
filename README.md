@@ -345,7 +345,7 @@
 
     - #### Proper Subset ($\subset$)
       - If **$S_1 \subseteq S$**, but **$S$** contains an **element not in** **$S_1$**, we say that **$S_1$** is a **proper subset** of **$S$**:
-      - $S_1 \subset S$ 
+        - $S_1 \subset S$ 
 
     <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
     <span id="disjoint"></span>
