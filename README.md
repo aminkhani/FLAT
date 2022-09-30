@@ -37,7 +37,8 @@
 >
 > 📣 You can help to improve this repo, by giving me a **⭐star⭐** and **❤️following me❤️**
 > 
-> **warning**
+> **Warning**
+> 
 > It is better to use the web browser to view the math notation in this repository.
 <br>
 
