@@ -389,8 +389,6 @@
 
     - ### Partition
       - A **set** can be divided by separating it into a number of **subsets**. Suppose that **$S_1, S_2, …, S_n$** are **subsets** of a given **set** **$S$** and that the following holds:
-      <br> 
-
         1. The **subsets** **$S_1, S_2, …, S_n$** are **mutually disjoint**:
            - $S_1 \bigcap S_2 = S_1 \bigcap S_3 = … = S_1 \bigcap S_n = S_2 \bigcap S_3 = … = S_2 \bigcap S_n = … = S_{n-1} \bigcap S_n = \varnothing$ 
         <br>
