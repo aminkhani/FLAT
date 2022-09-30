@@ -113,6 +113,9 @@
           <li><a href="#proof2">Proof By Contradiction</a></li>
         </ul>
       </li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#grammars">Grammars</a></li>
+      <li><a href="#automata">automata</a></li>
     </ul>
   </li>
 </ul>
@@ -532,3 +535,100 @@
 
 
 <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+
+
+<h1 id="languages">Languages</h1>
+
+- **Dictionaries** define the term **informally** as a **system suitable** for the **expression of certain ideas**, **facts**, or **concepts**, **including a set of symbols and rules** for their manipulation.
+<br>
+
+- We start with a **finite**, **nonempty set** **$Σ$** of **symbols**, called the **alphabet**. From the individual symbols we construct **strings**, which are **finite sequences of symbols from the alphabet**.
+  <br> 
+
+  - For example, if the **alphabet** **$Σ = \\{a, b\\}$**, then **abab** and **aaabbba** are **strings** on **$Σ$**.
+<br>
+
+- We will use **lowercase letters** **a, b, c, …** for **elements** of **$Σ$** and **u, v, w, …** for **string names**. 
+  - **$w = abaaa$**, **string named** **$w$** has the **specific value** **$abaaa$**.
+<br>
+
+- The **concatenation** of **two strings** **$w$** and **$v$** is the **string** obtained by **appending the symbols** of **$v$** to the **right end** of **$w$**.
+  <br>
+
+  - **$w = a_1a_2 ⋯a_n$**, **$v = b_1b_2 ⋯b_m$**
+  - The **concatenation** of **$w$** and **$v$**, denoted by **$wv$**:
+    - **$wv = a_1a_2 ⋯a_nb_1b_2 ⋯b_m$**
+  <br>
+
+- The **reverse** of a **string** is obtained by **writing** the **symbols in reverse order**; if **$w$** is a **string** as shown above, then its **reverse** is **$w^R$**.
+  - **$w = a_1a_2⋯a_n$**, **$w^R = a_n⋯a_2a_1$**
+  <br>
+
+- The **length of a string** **$w$**, denoted by **$|w|$**, is the **number of symbols** in the **string**. 
+- The **empty string**, which is a **string** with **no symbols** at all. It will be denoted by **$λ$**.
+  - **$|λ| = 0$**, **$λw = wλ = w$**
+<br>
+
+- Any **string** of **consecutive symbols** in some **$w$** is said to be a **substring** of **$w$**.
+  - **$w = vu$**
+  - The **substrings** **$v$** and **$u$** are said to be a **prefix** and a **suffix** of **$w$**.
+  <br>
+
+  - For example, if **$w = abbab$**, then **$\\{λ, a, ab, abb, abba, abbab\\}$** is the **set** of all **prefixes** of **$w$**, while **$bab$**, **$ab$**, **$b$** are some of its **suffixes**.
+<br>
+
+
+- If **$w$** is a **string**, then **$w^n$** stands for the **string obtained by repeating** **$w$**, **$n$** times.
+  - **$w^3 = w.w.w$**, **$w^0 = λ$**
+<br>
+
+- If **$Σ$** is an **alphabet**, then we use **$Σ^*$** to denote the **set of strings** obtained by **concatenating** **zero or more symbols from** **$Σ$**. The **set** **$Σ^*$** always **contains** **$λ$**. To **exclude the empty string**:
+  - **$Σ^+ = Σ^∗ − \\{λ\\}$**
+  - While **$Σ$** is **finite by assumption**, **$Σ^*$** and **$Σ^+$** are **always infinite** since there is **no limit on the length** of the **strings** in these sets.
+<br>
+
+- A **language** is defined very generally as a **subset** of **$Σ^*$**. A **string** in a **language** **$L$** will be **called a sentence** of **$L$**.
+<br>
+
+- #### Example
+  - Let **$Σ = \\{a, b\\}$**. Then **$Σ^∗ = \\{λ, a, b, aa, ab, aab, ...\\}$**. The **set** **$\\{a, aa, aab\\}$** is a **language** on **$Σ$**. Because it has a **finite number of sentences**, we call it a **finite language**. 
+  <br>
+
+  - The **set** **$L = \\{a^nb^n: n ≥ 0\\}$** is also a **language** on **$Σ$**. The **strings** **$aabb$** and **$aaaabbbb$** are in the **language** **$L$**, but the **string** **$abb$** is **not in** **$L$**. This **language is infinite**. **Most interesting languages are infinite**.
+<br>
+
+- Since **languages** are **sets**, the **union**, **intersection**, and **difference** of two languages are immediately defined.
+<br>
+
+- The **complement** of a **language** is defined with **respect** to **$Σ^*$**; that is, the **complement** of **$L$** is: 
+  - **$L = Σ^∗ − L$**
+<br>
+
+- The **reverse** of a **language** is the **set of all string reversals**, that is:
+  - **$L^R = \\{w^R : w ∈ L\\}$**
+<br>
+
+- The **concatenation** of two languages **$L_1$** and **$L_2$** is the **set** of all strings obtained by **concatenating** any element of **$L_1$** with any element of **$L_2$**; specifically:
+  - **$L_1L_2 = \\{xy : x ∈ L_1, y ∈ L_2\\}$**
+<br>
+
+- We define **$L^n$** as **$L$** **concatenated** with itself **$n$** times: 
+  - **$L^0 = \lambda$**
+  - **$L^1 = L$**
+<br>
+
+- Define the **star-closure** of a **language** as:
+  - **$L^∗ = L^0 \bigcup L^1 \bigcup L^2 ⋯$**
+<br>
+
+- Define the **positive closure** of a **language** as:
+  - **$L^+ = L^1 \bigcup L^2 ⋯$**
+
+
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<h1 id="grammars">Grammars</h1>
+
+
+
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<h1 id="automata">Automata</h1>
