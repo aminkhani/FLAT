@@ -369,7 +369,7 @@
     - ### Powerset ( $2^{|S|}$ )
       - The **set** of **all subsets of a set** **$S$**.
       - For example: $S = \\{a, b, c\\}$
-        - $2^{|S|} =  \\{\varnothing, \\{a\\}, \\{b\\}, \\{c\\}, \\{a, b\\}, \\{a, c\\}, \\{b, c\\}, \\{a, b, c\\}\\}$
+    $2^{|S|} =  \\{\varnothing, \\{a\\}, \\{b\\}, \\{c\\}, \\{a, b\\}, \\{a, c\\}, \\{b, c\\}, \\{a, b, c\\}\\}$
         - Number of subset: $|S| = 3 \longrightarrow 2^{3} = 8$
 
     <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
@@ -379,7 +379,7 @@
       - The **Cartesian product** of **two sets**, which **itself** is a **set of ordered pairs**.
       - $S = S_1 \times S_2 = \\{(x, y) : x ∈ S_1, y ∈ S_2\\}$
       - For example: Let $S_1 = \\{2, 4\\}$ and $S_2 = \\{2, 3\\}$
-        - $S = S_1 \times S_2 = \\{(2, 2), (2, 3), (4, 2), (4, 3)\\}$
+    $S = S_1 \times S_2 = \\{(2, 2), (2, 3), (4, 2), (4, 3)\\}$
       <br> 
 
       > **Note** that the order in which the elements of a pair are written matters.
@@ -390,7 +390,7 @@
     - ### Partition
       - A **set** can be divided by separating it into a number of **subsets**. Suppose that **$S_1, S_2, …, S_n$** are **subsets** of a given **set** **$S$** and that the following holds:
         1. The **subsets** **$S_1, S_2, …, S_n$** are **mutually disjoint**:
-           - $S_1 \bigcap S_2 = S_1 \bigcap S_3 = … = S_{n-1} \bigcap S_n = \varnothing$ 
+      $S_1 \bigcap S_2 = S_1 \bigcap S_3 = … = S_{n-1} \bigcap S_n = \varnothing$ 
         <br>
 
         1. $S_1 \bigcup S_2 \bigcup … \bigcup S_n = S$
