@@ -277,11 +277,11 @@
   <br>
 
   - The **set of integers 0, 1, 2** is shown as: 
-    - $S = \{0, 1, 2\}$
+    - $S =\\{0, 1, 2\\}$
   <br>
 
   - ***S*** is the **set of** all **$i$**, such that **$i$** is **greater than zero**:
-    - $S = \{i : i > 0\}$
+    - $S = \\{i : i > 0\\}$
 
 <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 
@@ -289,32 +289,32 @@
 
     <span id="union"></span>
 
-    - #### Union ($\bigcup$)
-      - $S_1 \bigcup S_2= \{x : x ∈ S_1 \mid\mid x ∈ S_2\}$
+    - #### Union ( $\bigcup$ )
+      - $S_1 \bigcup S_2 = \\{x : x ∈ S_1 \mid\mid x ∈ S_2\\}$
 
     <span id="intersection"></span>
 
-    - #### Intersection ($\bigcap$)
-      - $S_1 \bigcap S_2 = \{x : x ∈ S_1 \And x ∈ S_2\}$
+    - #### Intersection ( $\bigcap$ )
+      - $S_1 \bigcap S_2 = \\{x : x ∈ S_1 \And x ∈ S_2\\}$
 
     <span id="difference"></span>
 
-    - #### Difference ($-$)
-      - $S_1 − S_2 = \{x : x ∈ S_1 \And x ∉ S_2\}$
+    - #### Difference ( $-$ )
+      - $S_1 − S_2 = \\{x : x ∈ S_1 \And x ∉ S_2\\}$
 
     <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
     <span id="complementation"></span>
 
-    - #### Complementation ($\overline{S}$)
+    - #### Complementation ( $\overline{S}$ )
       - The **complement** of a **set $S$**, is **$\overline{S}$** that consists of **all elements not in S**. 
       - **Universal set ($U$)**: **all possible elements**.
       <br>
 
-      - $\overline{S} = \{x : x ∈ U, x ∉ S\}$
+      - $\overline{S} = \\{x : x ∈ U, x ∉ S\\}$
 
     <span id="empty"></span>
 
-    - #### Emtpy Set ($\varnothing$)
+    - #### Emtpy Set ( $\varnothing$ )
       - The **set** with **no elements**, called the **empty set** or the **null set**.
       <br>
 
@@ -337,20 +337,20 @@
 
     <span id="subset"></span>
 
-    - #### Subset ($\subseteq$)
+    - #### Subset ( $\subseteq$ )
       - A **set** **$S_1$** is said to be a **subset** of **$S$** if **every element of** **$S_1$** is **also an element of** **$S$**:
         - $S_1 \subseteq S$
 
     <span id="proper"></span>
 
-    - #### Proper Subset ($\subset$)
+    - #### Proper Subset ( $\subset$ )
       - If **$S_1 \subseteq S$**, but **$S$** contains an **element not in** **$S_1$**, we say that **$S_1$** is a **proper subset** of **$S$**:
         - $S_1 \subset S$ 
 
     <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
     <span id="disjoint"></span>
 
-    - #### Disjoint ($\cap$)
+    - #### Disjoint ( $\cap$ )
       - If **$S_1$** and **$S_2$** have **no common element**, that is, **$S_1 \bigcap S_2 = \varnothing$**, then the **sets** are said to be **disjoint**.
 
     <span id="finite"></span>
@@ -366,22 +366,23 @@
     <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
     <span id="powerset"></span>
 
-    - #### Powerset ($2^{|S|}$)
+    - #### Powerset ( $2^{|S|}$ )
       - The **set** of **all subsets of a set** **$S$**.
-      - For example: $S = \{a, b, c\}$
-        - $2^{|S|} =  \{\varnothing, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}, \{a, b, c\}\}$
+      - For example: $S = \\{a, b, c\\}$
+        - $2^{|S|} =  \\{\varnothing, \\{a\\}, \\{b\}, \\{c\}, \\{a, b\\}, \\{a, c\\}, \\{b, c\\}, \\{a, b, c\\}\\}$
         - Number of subset: $|S| = 3 \longrightarrow 2^{3} = 8$
 
     <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
     <span id="cartesian"></span>
 
-    - #### Cartesian Product ($\times$)
+    - #### Cartesian Product ( $\times$ )
       - the **Cartesian product** of **two sets**, which **itself** is a **set of ordered pairs**.
-      - $S = S_1 \times S_2 = \{(x, y) : x ∈ S_1, y ∈ S_2\}$
-      - For example: Let $S_1 = \{2, 4\}$ and $S_2 = \{2, 3, 5, 6\}$
-        - $S = S_1 \times S_2 = \{(2, 2), (2, 3), (2, 5), (2, 6), (4, 2), (4, 3), (4, 5), (4, 6)\}$
+      - $S = S_1 \times S_2 = \\{(x, y) : x ∈ S_1, y ∈ S_2\\}$
+      - For example: Let $S_1 = \\{2, 4\\}$ and $S_2 = \\{2, 3, 5, 6\\}$
+        - $S = S_1 \times S_2 = \\{(2, 2), (2, 3), (2, 5), (2, 6), (4, 2), (4, 3), (4, 5), (4, 6)\\}$
       <br> 
-      - > **Note** that the order in which the elements of a pair are written matters.
+
+      > **Note** that the order in which the elements of a pair are written matters.
   
     <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
       <span id="partition"></span>
@@ -389,15 +390,16 @@
     - #### Partition
       - A **set** can be divided by separating it into a number of **subsets**. Suppose that **$S_1, S_2, …, S_n$** are **subsets** of a given **set** **$S$** and that the following holds:
       <br> 
+
         1. The **subsets** **$S_1, S_2, …, S_n$** are **mutually disjoint**:
            - $S_1 \bigcap S_2 = S_1 \bigcap S_3 = … = S_1 \bigcap S_n = S_2 \bigcap S_3 = … = S_2 \bigcap S_n = … = S_{n-1} \bigcap S_n = \varnothing$ 
         <br>
 
-        1. $S_1 \bigcup S_2 \bigcup … \bigcup S_n = S$
+        2. $S_1 \bigcup S_2 \bigcup … \bigcup S_n = S$
            - $\bigcup_{i=1}^{n} S_i = S$ 
         <br>
 
-        1. none of the **$S_i$** is **empty**:
+        3. none of the **$S_i$** is **empty**:
            - $S_i \neq \varnothing$
 
 <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
