@@ -317,117 +317,117 @@
 
 - # Set Terms
 
-  <span id="union"></span>
+<span id="union"></span>
 
-  - ## Union ( $\bigcup$ )
-    - $S_1 \bigcup S_2 = \\{x : x ∈ S_1 \mid\mid x ∈ S_2\\}$
+- ## Union ( $\bigcup$ )
+  - $S_1 \bigcup S_2 = \\{x : x ∈ S_1 \mid\mid x ∈ S_2\\}$
 
-  <span id="intersection"></span>
+<span id="intersection"></span>
 
-  - ## Intersection ( $\bigcap$ )
-    - $S_1 \bigcap S_2 = \\{x : x ∈ S_1 \And x ∈ S_2\\}$
+- ## Intersection ( $\bigcap$ )
+  - $S_1 \bigcap S_2 = \\{x : x ∈ S_1 \And x ∈ S_2\\}$
 
-  <span id="difference"></span>
+<span id="difference"></span>
 
-  - ## Difference ( $-$ )
-    - $S_1 − S_2 = \\{x : x ∈ S_1 \And x ∉ S_2\\}$
+- ## Difference ( $-$ )
+  - $S_1 − S_2 = \\{x : x ∈ S_1 \And x ∉ S_2\\}$
 
-  <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
-  <span id="complementation"></span>
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<span id="complementation"></span>
 
-  - ## Complementation ( $\overline{S}$ )
-    - The **complement** of a **set $S$**, is **$\overline{S}$** that consists of **all elements not in $S$**. 
-    - **Universal set ( $U$ )**: **all possible elements**.
+- ## Complementation ( $\overline{S}$ )
+  - The **complement** of a **set $S$**, is **$\overline{S}$** that consists of **all elements not in $S$**. 
+  - **Universal set ( $U$ )**: **all possible elements**.
+  <br>
+
+  - $\overline{S} = \\{x : x ∈ U, x ∉ S\\}$
+
+<span id="empty"></span>
+
+- ## Emtpy Set ( $\varnothing$ )
+  - The **set** with **no elements**, called the **empty set** or the **null set**.
+  <br>
+
+  - $S \bigcup \varnothing = S − \varnothing = S$
+  <br>
+
+  - $S \bigcap \varnothing = \varnothing$
+  <br>
+
+  - $\overline{\varnothing} = U$ 
+
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<span id="deMorgan"></span>
+
+- ## DeMorgan’s laws
+  - $\overline{S_1 \bigcup S_2} = \overline{S_1} \bigcap \overline{S_2}$
+  <br>
+
+  - $\overline{S_1 \bigcap S_2} = \overline{S_1} \bigcup \overline{S_2}$ 
+
+<span id="subset"></span>
+
+- ## Subset ( $\subseteq$ )
+  - A **set** **$S_1$** is said to be a **subset** of **$S$** if **every element of** **$S_1$** is **also an element of** **$S$**:
+    - $S_1 \subseteq S$
+
+<span id="proper"></span>
+
+- ## Proper Subset ( $\subset$ )
+  - If **$S_1 \subseteq S$**, but **$S$** contains an **element not in** **$S_1$**, we say that **$S_1$** is a **proper subset** of **$S$**:
+    - $S_1 \subset S$ 
+
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<span id="disjoint"></span>
+
+- ## Disjoint ( $\cap$ )
+  - If **$S_1$** and **$S_2$** have **no common element**, that is, **$S_1 \bigcap S_2 = \varnothing$**, then the **sets** are said to be **disjoint**.
+
+<span id="finite"></span>
+
+- ## Finite & Infinite Set
+  - A **set** is **finite** if it has **a finite number of elements**. The **size** of a **finite set** is the **number of elements** in it:
+    - $|S|$
+
+  <br>
+
+  - A **set** is **infinite** if it has **an infinite number of elements**.
+
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<span id="powerset"></span>
+
+- ## Powerset ( $2^{|S|}$ )
+  - The **set** of **all subsets of a set** **$S$**.
+  - For example: $S = \\{a, b\\}$
+  - $2^{|S|} =  \\{\varnothing, \\{a\\}, \\{b\\}, \\{a, b\\}, \\{a, b\\}\\}$
+  - Number of subset: $|S| = 2 \longrightarrow 2^{2} = 2$
+
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<span id="cartesian"></span>
+
+- ## Cartesian Product ( $\times$ )
+  - The **Cartesian product** of **two sets**, which **itself** is a **set of ordered pairs**.
+  - $S = S_1 \times S_2 = \\{(x, y) : x ∈ S_1, y ∈ S_2\\}$
+  - For example: Let $S_1 = \\{2, 4\\}$ and $S_2 = \\{2, 3\\}$
+  - $S_1 \times S_2 = \\{(2, 2), (2, 3), (4, 2), (4, 3)\\}$
+  <br> 
+
+  > **Note** that the order in which the elements of a pair are written matters.
+
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+  <span id="partition"></span>
+
+- ## Partition
+  - A **set** can be divided by separating it into a number of **subsets**. Suppose that **$S_1, S_2, …, S_n$** are **subsets** of a given **set** **$S$** and that the following holds:
+    - The **subsets** **$S_1, S_2, …, S_n$** are **mutually disjoint**:
+      - $S_1 \bigcap S_2 \bigcap … \bigcap S_n = \varnothing$ 
     <br>
 
-    - $\overline{S} = \\{x : x ∈ U, x ∉ S\\}$
-
-  <span id="empty"></span>
-
-  - ## Emtpy Set ( $\varnothing$ )
-    - The **set** with **no elements**, called the **empty set** or the **null set**.
+    - $S_1 \bigcup S_2 \bigcup … \bigcup S_n = S$
     <br>
 
-    - $S \bigcup \varnothing = S − \varnothing = S$
-    <br>
-
-    - $S \bigcap \varnothing = \varnothing$
-    <br>
-
-    - $\overline{\varnothing} = U$ 
-
-  <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
-  <span id="deMorgan"></span>
-
-  - ## DeMorgan’s laws
-    - $\overline{S_1 \bigcup S_2} = \overline{S_1} \bigcap \overline{S_2}$
-    <br>
-
-    - $\overline{S_1 \bigcap S_2} = \overline{S_1} \bigcup \overline{S_2}$ 
-
-  <span id="subset"></span>
-
-  - ## Subset ( $\subseteq$ )
-    - A **set** **$S_1$** is said to be a **subset** of **$S$** if **every element of** **$S_1$** is **also an element of** **$S$**:
-      - $S_1 \subseteq S$
-
-  <span id="proper"></span>
-
-  - ## Proper Subset ( $\subset$ )
-    - If **$S_1 \subseteq S$**, but **$S$** contains an **element not in** **$S_1$**, we say that **$S_1$** is a **proper subset** of **$S$**:
-      - $S_1 \subset S$ 
-
-  <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
-  <span id="disjoint"></span>
-
-  - ## Disjoint ( $\cap$ )
-    - If **$S_1$** and **$S_2$** have **no common element**, that is, **$S_1 \bigcap S_2 = \varnothing$**, then the **sets** are said to be **disjoint**.
-
-  <span id="finite"></span>
-
-  - ## Finite & Infinite Set
-    - A **set** is **finite** if it has **a finite number of elements**. The **size** of a **finite set** is the **number of elements** in it:
-      - $|S|$
-
-    <br>
-
-    - A **set** is **infinite** if it has **an infinite number of elements**.
-
-  <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
-  <span id="powerset"></span>
-
-  - ## Powerset ( $2^{|S|}$ )
-    - The **set** of **all subsets of a set** **$S$**.
-    - For example: $S = \\{a, b\\}$
-    - $2^{|S|} =  \\{\varnothing, \\{a\\}, \\{b\\}, \\{a, b\\}, \\{a, b\\}\\}$
-    - Number of subset: $|S| = 2 \longrightarrow 2^{2} = 2$
-
-  <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
-  <span id="cartesian"></span>
-
-  - ## Cartesian Product ( $\times$ )
-    - The **Cartesian product** of **two sets**, which **itself** is a **set of ordered pairs**.
-    - $S = S_1 \times S_2 = \\{(x, y) : x ∈ S_1, y ∈ S_2\\}$
-    - For example: Let $S_1 = \\{2, 4\\}$ and $S_2 = \\{2, 3\\}$
-    - $S_1 \times S_2 = \\{(2, 2), (2, 3), (4, 2), (4, 3)\\}$
-    <br> 
-
-    > **Note** that the order in which the elements of a pair are written matters.
-
-  <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
-    <span id="partition"></span>
-
-  - ## Partition
-    - A **set** can be divided by separating it into a number of **subsets**. Suppose that **$S_1, S_2, …, S_n$** are **subsets** of a given **set** **$S$** and that the following holds:
-      - The **subsets** **$S_1, S_2, …, S_n$** are **mutually disjoint**:
-        - $S_1 \bigcap S_2 \bigcap … \bigcap S_n = \varnothing$ 
-      <br>
-
-      - $S_1 \bigcup S_2 \bigcup … \bigcup S_n = S$
-      <br>
-
-      - None of the **$S_i$** is **empty**:
-         - $S_i \neq \varnothing$
+    - None of the **$S_i$** is **empty**:
+        - $S_i \neq \varnothing$
 
 <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 
@@ -628,6 +628,37 @@
 <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <h1 id="grammars">Grammars</h1>
 
+- A **grammar** **$G$** is defined as a **quadruple**:
+  - **$G = (V , T, S, P)$**
+  <br>
+
+  - **$V$** is a **finite set of objects** called **variables**.
+  - **$T$** is a **finite set of objects** called **terminal symbols**.
+  - **$S ∈ V$** is a **special symbol** called the **start variable**
+  - **$P$** is a **finite set of productions**.
+  - **Assumed** that the **sets** **$V$** and **$T$** are **nonempty** and **disjoint**.
+  <br>
+
+- The **production rules** are the **heart of a grammar**; they **specify** **how the grammar transforms one string into another**, and through this they **define** a **language associated with the grammar**. 
+<br>
+
+- We will **assume** that **all production rules** are of the form:
+  - **$x \rightarrow y$**
+  - **$x$** is an **element of** **$(V ∪ T)^+$**  
+  - **$y$** is **in** **$(V ∪ T)^*$**
+<br>
+
+- The **productions** are applied in the following manner:
+  - We have a **string**: 
+    - **$w = uxv$**
+  - The **production** **$x → y$** is applicable to this **string**.
+  - The new **string** is:
+    - **$z = uyv$**
+  - We can write this as:
+    - **$w \Rightarrow z$** 
+    - We say that **$w$** **derives** **$z$** or that **$z$** is **derived** from **$w$**.
+- 
+ 
 
 
 <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
