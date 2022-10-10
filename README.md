@@ -89,42 +89,44 @@
           <li><a href="#cartesian">Cartesian Product</a></li>
           <li><a href="#partition">Partition</a></li>
         </ul>
-      </li>
-      <li><a href="#function">Functions and Relations</a>
-        <ul>
-          <li><a href="#function">Function - Domain - Range</a></li>
-          <li><a href="#function">Total & Partial Function</a></li>
-          <li><a href="#Big">Big O & Omega & Theta</a></li>
-          <li><a href="#rel">Relation</a></li>
-          <li><a href="#equ">Equivalence</a></li>
-          <li><a href="#equ">Reflexivity & Symmetry & Transitivity & Rules</a></li>
-        </ul>
-      </li>
-      <li><a href="#graphs">Graphs</a>
-        <ul>
-          <li><a href="#edge">Vertices & Edges</a></li>
-          <li><a href="#walk">Walk</a></li>
-          <li><a href="#path">Path & Simple Path</a></li>
-          <li><a href="#cycle">Cycle</a></li>
-        </ul>
-      </li>
-      <li><a href="#tree">Trees</a>
-        <ul>
-          <li><a href="#child">Parent & Child</a></li>
-          <li><a href="#lvl">Level</a></li>
-          <li><a href="#height">Height</a></li>
-        </ul>
-      </li>
-      <li><a href="#proof">Proof Techniques</a>
-        <ul>
-          <li><a href="#proof1">Proof By Induction</a></li>
-          <li><a href="#proof2">Proof By Contradiction</a></li>
-        </ul>
-      </li>
-      <li><a href="#languages">Languages</a></li>
-      <li><a href="#grammars">Grammars</a></li>
-      <li><a href="#automata">Automata</a></li>
+      </li>  
     </ul>
+  </li>
+    <li><a href="#function">Functions and Relations</a>
+      <ul>
+        <li><a href="#function">Function - Domain - Range</a></li>
+        <li><a href="#function">Total & Partial Function</a></li>
+        <li><a href="#Big">Big O & Omega & Theta</a></li>
+        <li><a href="#rel">Relation</a></li>
+        <li><a href="#equ">Equivalence</a></li>
+        <li><a href="#equ">Reflexivity & Symmetry & Transitivity & Rules</a></li>
+      </ul>
+    </li>
+    <li><a href="#graphs">Graphs</a>
+      <ul>
+        <li><a href="#edge">Vertices & Edges</a></li>
+        <li><a href="#walk">Walk</a></li>
+        <li><a href="#path">Path & Simple Path</a></li>
+        <li><a href="#cycle">Cycle</a></li>
+      </ul>
+    </li>
+    <li><a href="#tree">Trees</a>
+      <ul>
+        <li><a href="#child">Parent & Child</a></li>
+        <li><a href="#lvl">Level</a></li>
+        <li><a href="#height">Height</a></li>
+      </ul>
+    </li>
+    <li><a href="#proof">Proof Techniques</a>
+      <ul>
+        <li><a href="#proof1">Proof By Induction</a></li>
+        <li><a href="#proof2">Proof By Contradiction</a></li>
+      </ul>
+    </li>
+    <li><a href="#languages">Languages</a></li>
+    <li><a href="#grammars">Grammars</a></li>
+    <li><a href="#automata">Automata</a></li>
+  </ul>
   </li>
 </ul>
 
@@ -748,29 +750,104 @@
 <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <h1 id="automata">Automata</h1>
 
-- An **automaton** is an **abstract model of a digital computer**. As such, **every automaton** includes **some essential features**. It has a **mechanism for reading input**. It will be **assumed** that the **input is a string over a given alphabet**, **written on an input file**, which the **automaton** can **read but not change**.
-<br>
+- An **automaton** is an **abstract model of a digital computer**. It has a **mechanism for reading input**. It will be **assumed** that the **input is a string over a given alphabet**, **written on an input file**, which the **automaton** can **read but not change**.
 
-- The **input file** is **divided into cells**, each of which can **hold one symbol**. The **input mechanism** can **read the input file** from **left to right**, **one symbol at a time**. The **input mechanism** can also **detect** the **end of the input string** (by sensing an **end-of-file condition**).
-<br>
+- ### Input File
+  - It is **divided into cells**, each of which can **hold one symbol**. The **input mechanism** can **read the input file** from **left to right**, **one symbol at a time**. 
+  <br>
 
-- The **automaton** can **produce output of some form**. It may have a **temporary storage device**, **consisting of an unlimited number of cells**, each **capable of holding a single symbol from an alphabet** (not necessarily the same one as the input alphabet).
-<br>
+  - The **input mechanism** can also **detect** the **end of the input string** (by sensing an **end-of-file condition**).
 
-- The **automaton** can **read and change** the **contents of the storage cells**. **Finally**, the **automaton has a control unit**, which can be in any one of a **finite number of internal states**, and which can **change state** in some defined manner.
+- ### State Machine
+  - A **state machine** is a **behavior model**. It consists of a **finite number of states** and is therefore also called **finite-state machine (FSM)**.
+- ### Storage
+  - **Consisting of an unlimited number of cells**, each **capable of holding a single symbol from an alphabet** (not necessarily the same one as the input alphabet).
+  <br> 
+
+  - #### [Finite Automata]()
+    - It has no **storage**.
+  - #### [Pushdown Automata]()
+    - It has **stack storage**.
+  - #### [Turing Machine]()
+    - It has **queue storage**.
+
+- ### Control Unit
+  - Which can be in any one of a **finite number of internal states**, and which can **change state** in some defined manner.
+
+- ### State
+  - **Internal State**: An automaton is assumed to operate in a **discrete time frame**. At any given time, the **control unit** is in some state the we call the **internal state** or **current state**.
 <br>
 <img src="Pic/automation.jpg">
+
+- ### Transition Function
+  - The **internal state of the control unit** at the **next time step** is determined by the **next-state** or **transition function**.
+  <br>
+
+  - The **transition function** gives the **next state** in **terms of the current state**, the **current input symbol**, and the **information currently** in the **temporary storage**. During the **transition from one time interval to the next**, **output** may be **produced** or the **information in the temporary storage changed**.
+  - **Deterministic**
+  - #### Deterministic
+    - The probability of **transition function** is **1** or **100%**. 
+
+  - #### Non-Deterministic*
+    - The probability of **transition function** is not certain. 
+
+- ### Configuration
+  - The **term configuration** will be used to refer to a **particular state of the control unit**, **input file**, and **temporary storage**. 
+
+- ### Move
+  - The **transition of the automaton** from **one configuration to the next** will be called a **move**.
+   
+- ### Accepter 
+  - An **automaton** whose **output** response is **limited** to a simple **yes** or **no** is called an **accepter**.
+  <br>
+
+  - Presented with an **input string**, an **accepter** either **accepts the string or rejects it**. 
+
+- ### Transducer 
+  - A more **general automaton**, **capable** of **producing strings** of **symbols** as **output**, is called a **transducer**.
+
+## Finite Automata
+- **Finite automata** are used to **recognize patterns**.
 <br>
 
-- An **automaton** is **assumed** to **operate** in a **discrete time frame**. **At any given time**, the **control unit** is in some **internal state**, and the **input mechanism** is **scanning a particular symbol on the input file**. The **internal state of the control unit** at the **next time step** is determined by the **next-state** or **transition function**.
+- It takes the **string of symbol** as **input** and **changes** its state accordingly. When the **desired symbol is found**, then the **transition occurs**.
 <br>
 
-- The **transition function** gives the **next state** in **terms of the current state**, the **current input symbol**, and the **information currently** in the **temporary storage**. During the **transition from one time interval to the next**, **output** may be **produced** or the **information in the temporary storage changed**.
+- At the **time of transition,** the automata can either move to the next state or stay in the same state.
 <br>
 
-- The **term configuration** will be used to refer to a **particular state of the control unit**, **input file**, and **temporary storage**. The **transition of the automaton** from **one configuration to the next** will be called a **move**.
+- **Finite automata** have **two states**:
+  1. **Accept state**
+     - When the input string is processed successfully, and the automata reached its final state, then it will accept.
+  2. **Reject state**
 <br>
 
+- **Finite automaton** is a **collection** of **$(Q, ∑, δ, q_0, F)$**:
+  - **$Q$**: finite set of states  
+  - **$∑$**: finite set of the input symbol  
+  - **$δ$**: Transition function 
+  - **$q_0$**: initial state   
+  - **$F$**: final state  
+
+### Types of Automata:
+  1. **DFA(Deterministic Finite Automata)**
+  2. **NFA(Non-Deterministic Finite Automata)**
+  <br> 
+  <img src="Pic/types-of-automata.png">
+
+## Deterministic Finite Automata (DFA)
+
+The **first type of automaton** is **finite accepters** that are **deterministic in their operation**.
+
+### Defined by the quintuple **$M = (Q, Σ, δ, q_0, F)$**:
+  - **$Q$** is a **finite set of internal states**.
+  - **$Σ$** is a **finite set of symbols called the input alphabet**.
+  - **$δ: Q × Σ → Q$** is a **total function** called the **transition function**.
+  - **$q_0 ∈ Q$** is the **initial state**.
+  - **$F ⊆ Q$** is a set of **final states**.
+<br>
+
+- At the **initial time**, it is assumed to be in the **initial state** **$q_0$**, with its **input mechanism** on the **leftmost symbol** of the **input string**.
 
 
 
