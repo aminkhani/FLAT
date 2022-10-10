@@ -125,7 +125,20 @@
     </li>
     <li><a href="#languages">Languages</a></li>
     <li><a href="#grammars">Grammars</a></li>
-    <li><a href="#automata">Automata</a></li>
+    <li><a href="#automata">Automata</a>
+      <ul>
+          <li><a href="#terminology">Terminology</a></li>
+          <li><a href="#finite_automata">Finite Automata</a>
+            <ul>
+              <li><a href="#dfa">DFA</a></li>
+              <li><a href="#nfa">NFA</a></li>
+            </ul>
+          </li>
+          <!-- <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li> -->
+      </ul>
+    </li>
   </ul>
   </li>
 </ul>
@@ -752,6 +765,8 @@
 
 - An **automaton** is an **abstract model of a digital computer**. It has a **mechanism for reading input**. It will be **assumed** that the **input is a string over a given alphabet**, **written on an input file**, which the **automaton** can **read but not change**.
 
+<span id="terminology"></sapn>
+
 - ### Input File
   - It is **divided into cells**, each of which can **hold one symbol**. The **input mechanism** can **read the input file** from **left to right**, **one symbol at a time**. 
   <br>
@@ -764,7 +779,7 @@
   - **Consisting of an unlimited number of cells**, each **capable of holding a single symbol from an alphabet** (not necessarily the same one as the input alphabet).
   <br> 
 
-  - #### [Finite Automata]()
+  - #### [Finite Automata](#finite-automata)
     - It has no **storage**.
   - #### [Pushdown Automata]()
     - It has **stack storage**.
@@ -784,11 +799,10 @@
   <br>
 
   - The **transition function** gives the **next state** in **terms of the current state**, the **current input symbol**, and the **information currently** in the **temporary storage**. During the **transition from one time interval to the next**, **output** may be **produced** or the **information in the temporary storage changed**.
-  - **Deterministic**
   - #### Deterministic
     - The probability of **transition function** is **1** or **100%**. 
 
-  - #### Non-Deterministic*
+  - #### Non-Deterministic
     - The probability of **transition function** is not certain. 
 
 - ### Configuration
@@ -805,6 +819,9 @@
 
 - ### Transducer 
   - A more **general automaton**, **capable** of **producing strings** of **symbols** as **output**, is called a **transducer**.
+
+<span id="finite_automata"></span>
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 
 ## Finite Automata
 - **Finite automata** are used to **recognize patterns**.
@@ -835,6 +852,9 @@
   <br> 
   <img src="Pic/types-of-automata.png">
 
+<div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<span id="dfa"></span>
+
 ## Deterministic Finite Automata (DFA)
 
 The **first type of automaton** is **finite accepters** that are **deterministic in their operation**.
@@ -848,9 +868,5 @@ The **first type of automaton** is **finite accepters** that are **deterministic
 <br>
 
 - At the **initial time**, it is assumed to be in the **initial state** **$q_0$**, with its **input mechanism** on the **leftmost symbol** of the **input string**.
-
-
-
-
 
 <div align="right"><a href="#topp" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
